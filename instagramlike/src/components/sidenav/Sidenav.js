@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './Sidenav.css';
 import HomeIcon from '@mui/icons-material/Home';
 import SearchIcon from '@mui/icons-material/Search';
@@ -41,7 +42,7 @@ function Sidenav() {
         <FavoriteBorderIcon/>
 <span> Notifications</span>  
         </div>
-        <button className="sidenav_button">
+        <button className="sidenav_button" >
         <AddCircleOutlineIcon/>
 <span> Create</span>  
         </button>
