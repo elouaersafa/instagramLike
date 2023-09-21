@@ -1,0 +1,12 @@
+.home{
+    display:flex;
+    flex-direction:row;
+
+}
+.homeNav{
+    flex:0.2;
+    background-color: black;
+}
+.homeTimeLine{
+flex:0.8;
+}

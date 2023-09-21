@@ -1,0 +1,11 @@
+.timeLine {
+    display:flex;
+    flex-direction:row;
+    background-color: black;
+}
+.timeLineLeft{
+    flex:0.7;
+}
+.timeLineRight{
+    flex:0.3;
+}
